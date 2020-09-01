@@ -18,3 +18,4 @@ print(player1.run()) #When a function returns nothing, we get "None"
 print(player1.name,player1.age)
 print(player2.name,player2.age)
 print(player1.attack)
+help(player1)
