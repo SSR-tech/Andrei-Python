@@ -14,7 +14,7 @@ class Wizard(User):
 	def attack(self):
 		print(f"Attacking with power of {self.MyPower}")
 
-class Archer(User):
+cla
 	def __init__(self,name,num_of_arrows):
 		self.MyName = name
 		self.MyArrows = num_of_arrows
@@ -25,4 +25,4 @@ class Archer(User):
 # Introspection
 wizard1 = Wizard("Merlin",60,"ssrstudio99@gmail.com")
 print(dir(wizard1))
-
+print(help(dir))
