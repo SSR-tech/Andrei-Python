@@ -10,10 +10,11 @@ class playerCharacter:
 			self.age = age
 
 	def shout(self):
-		print(f"my name is {self.name}")
+		print(f"my name is {self.name} and I'm {self.age}")
+
 
 	def run(self,hello):
-		print(f"my name is {self.name}")
+		return(f"my name is {self.name}")
 
 
 player1 = playerCharacter("Sai",21)
@@ -22,3 +23,6 @@ player1.attack = 50
 
 print(player1.shout())
 print(player2.run("Heyy"))
+
+
+# When there is no return in a function, the function will return a none along with the print
